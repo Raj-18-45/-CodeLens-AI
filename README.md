@@ -20,11 +20,12 @@ The goal of CodeLens AI is to help developers write cleaner, more efficient, rea
 
 ### 1. CodeLens AI – Homepage
 
-![CodeLens AI Homepage](screenshots/homepage.png)
+![CodeLens AI Homepage](./Screenshots/homepage.png)
+
 
 ### 2. AI Code Review Report
 
-![AI Code Review Report](screenshots/code-review.png)
+![AI Code Review Report](./Screenshots/code-review.png)
 
 🛠️ Tech Stack
 
