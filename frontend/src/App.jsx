@@ -149,9 +149,10 @@ function App() {
     setReview('');
 
     try {
-      const response = await axios.post('http://localhost:3000/api/ai/get-review', {
-        code
-      });
+      const response = await axios.post(
+        'https://codelens-ai-backend-9idf.onrender.com/api/ai/get-review',
+        { code }
+      );
 
       setReview(response.data.review);
     } catch (error) {
