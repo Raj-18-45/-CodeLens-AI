@@ -40,6 +40,7 @@ Backend
 * CORS
 
 📁 Project Structure
+``` text
 
 CODE-REVIEW/
 │
@@ -52,11 +53,9 @@ CODE-REVIEW/
 │   │   ├── services/
 │   │   │   └── ai.service.js
 │   │   └── app.js
-│   │
-│   ├── .env
+│   ├── server.js
 │   ├── package.json
-│   ├── package-lock.json
-│   └── server.js
+│   └── package-lock.json
 │
 ├── frontend/
 │   ├── public/
@@ -66,11 +65,11 @@ CODE-REVIEW/
 │   │   ├── App.css
 │   │   ├── index.css
 │   │   └── main.jsx
-│   │
 │   ├── package.json
 │   └── vite.config.js
 │
 └── .gitignore
+```
 
 ⚙️ Installation and Setup
 
@@ -139,12 +138,13 @@ Method	Endpoint	Description
 POST	/api/ai/get-review	Analyzes submitted code and generates an AI review
 
 Example Request
-
+```test
 {
   "code": "function add(a, b) { return a + b; }"
 }
-
+```
 🔄 Application Workflow
+``` text
 
        User
          |
@@ -177,6 +177,7 @@ Example Request
          |
          v
   Display AI Review
+  ```
 
 🔮 Future Improvements
 
