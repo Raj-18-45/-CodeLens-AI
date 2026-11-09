@@ -16,6 +16,15 @@ The goal of CodeLens AI is to help developers write cleaner, more efficient, rea
 * Interactive Code Editor: Enter, edit, and review code.
 * Loading Indicators: Get feedback while AI processes your code.
 * Easy-to-Use Interface: Simple and clean user experience.
+## 📸 Application Screenshots
+
+### 1. CodeLens AI – Homepage
+
+![CodeLens AI Homepage](screenshots/homepage.png)
+
+### 2. AI Code Review Report
+
+![AI Code Review Report](screenshots/code-review.png)
 
 🛠️ Tech Stack
 
