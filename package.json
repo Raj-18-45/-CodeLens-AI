@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@google/genai": "^3.0.0",
-    "react-simple-code-editor": "^0.14.1"
-  }
-}
